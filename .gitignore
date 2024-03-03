@@ -1,6 +1,8 @@
 data
-models
-models_1_e
 data.zip
 checkpoints.zip
 animation.gif
+models
+models_1_e
+models_50_e
+models_100_e
