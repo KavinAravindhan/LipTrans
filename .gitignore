@@ -4,5 +4,10 @@ checkpoints.zip
 animation.gif
 models
 models_1_e
+models_10_e
+models_15_e
+models_25_e
 models_50_e
 models_100_e
+*.mp4
+*.mpg
