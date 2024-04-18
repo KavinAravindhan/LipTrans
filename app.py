@@ -75,31 +75,6 @@ def predict_text(file_path):
     print("Epoch 100 : ", e100)
     return e100
 
-    # Open the video file
-    cap = cv2.VideoCapture(video_path)
-
-    # Check if the video opened successfully
-    if not cap.isOpened():
-        print("Error: Could not open video file.")
-        return False
-
-    # Read the first frame
-    ret, frame = cap.read()
-
-    # Check if frame is read successfully
-    if not ret:
-        print("Error: Could not read first frame.")
-        return False
-
-    # Save the first frame as an image
-    output_path = 'static/videos/image.jpg'
-    cv2.imwrite(output_path, frame)
-
-    # Release the video capture object
-    cap.release()
-
-    return True
-
 # -------------
 app = Flask(__name__)
 
