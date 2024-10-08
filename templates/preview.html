@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lip Transcription</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-</head>
-<body>
-    <h1>Lip Transcription</h1>
-    <div class="container">
-        <div class="video-info">
-            <p>{{ video_name }}</p>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lip Transcription</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+
+    <body>
+        <h1>Lip Transcription</h1>
+        <div class="container">
+            <div class="video-info">
+                <p>{{ video_name }}</p>
+            </div>
+            <video width="320" height="240" controls>
+                <source src="{{ url_for('static', filename='videos/' + 'video.mp4') }}" type="video/mp4">
+            </video>
+            <p class="predicted-output">{{ text_output }}</p>
         </div>
-        <video width="320" height="240" controls>
-            <source src="{{ url_for('static', filename='videos/' + 'video.mp4') }}" type="video/mp4">
-        </video>
-        <p class="predicted-output">{{ text_output }}</p>
-    </div>
-</body>
+    </body>
+
 </html>

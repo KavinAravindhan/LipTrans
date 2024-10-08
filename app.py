@@ -113,5 +113,6 @@ def upload():
         return render_template('preview.html',video_name=video.filename, text_output=predict_text('.\\static\\videos\\'+video.filename))
     return "invalid file type"
 
+# Main Function
 if __name__ == '__main__':
     app.run(debug=True)
