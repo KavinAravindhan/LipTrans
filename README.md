@@ -52,10 +52,10 @@ LipTrans is an advanced real-time lip transcription tool that utilizes a sophist
 - **app.py, static, and templates:** Web app files using Flask to upload video and output transcribed text.
 - **model_checkpoints:** Contains checkpoint files for models trained at 50 and 100 epochs.
 
-## Links 🔗
+## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-### Links 🔗
+## Links 🔗
 - [Project Paper](https://github.com/KavinAravindhan/LipTrans/blob/master/paper/Real_Time_Lip_Transcription.pdf)
 - [TensorFlow Documentation](https://www.tensorflow.org/api_docs/python/tf/data)
 
