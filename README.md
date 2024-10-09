@@ -26,7 +26,7 @@ LipTrans is an advanced real-time lip transcription tool that utilizes a sophist
 - **F1 Score:** Achieved 0.909 by epoch 15, indicating a highly refined ability to translate visual lip cues into accurate text.
 - **BLEU Score:** Despite consistently low average scores (below 0.1), the model continues to improve in text similarity with each epoch.
 
-## Installation 🖥️
+## Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/KavinAravindhan/LipTrans.git
