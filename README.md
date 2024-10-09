@@ -2,7 +2,7 @@
 
 ![Build Status](https://img.shields.io/badge/build-stable-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Python](https://img.shields.io/badge/Python-3.8%2B-yellow)
+![Python](https://img.shields.io/badge/Python-3.8%2B-purple)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
 
 ![Platform](https://img.shields.io/badge/platform-Android-yellow)
