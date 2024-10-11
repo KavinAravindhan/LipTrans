@@ -26,6 +26,14 @@ LipTrans is an advanced real-time lip transcription tool that utilizes a sophist
 - **F1 Score:** Achieved 0.909 by epoch 15, indicating a highly refined ability to translate visual lip cues into accurate text.
 - **BLEU Score:** Despite consistently low average scores (below 0.1), the model continues to improve in text similarity with each epoch.
 
+## Dataset 📊
+LipTrans utilizes the **GRID Corpus**, a widely used audiovisual dataset for lip reading and speech recognition research. The GRID Corpus is essential for training the model to recognize and interpret lip movements accurately.
+
+### Key Features of the GRID Corpus:
+- **Size:** Contains over 34,000 video recordings.
+- **Participants:** 34 speakers (18 male and 16 female) reciting fixed vocabulary sentences.
+- **Format:** Each video includes synchronized audio and video streams of the speaker’s mouth area.
+
 ## Installation
 1. Clone the repository:
    ```bash
