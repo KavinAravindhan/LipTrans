@@ -19,7 +19,7 @@ LipTrans is an advanced real-time lip transcription tool that utilizes a sophist
 - **Flask** (for the web app)
 - **Jupyter Notebook**
 
-## Evaluation Metrics and Comparison 📊
+## Evaluation Metrics and Comparison 📈
 - **Word Error Rate (WER):** Decreased by 50% to 0.5, with LipTrans achieving a 4.8% WER, which is 2.8x lower than the state-of-the-art on the GRID corpus, underscoring its significant improvement over baseline models.
 - **Character Error Rate (CER):** Reduced by 90% to 0.04164, demonstrating superior accuracy in recognizing lip movements.
 - **Word Accuracy:** Increased from 0% to 83.33% by epoch 15, reflecting a notable advancement over human lipreading capabilities, with LipTrans outperforming by a factor of 4.5x.
