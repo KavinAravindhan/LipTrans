@@ -2,7 +2,7 @@
 
 ![Build Status](https://img.shields.io/badge/build-stable-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Python](https://img.shields.io/badge/Python-3.8%2B-purple)
+![Python](https://img.shields.io/badge/Python-3.0%2B-purple)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
 
 LipTrans is an advanced real-time lip transcription tool that utilizes a sophisticated neural network to translate lip movements into text. Designed to improve accessibility, it directly maps mouth movements to sentences, providing a significant enhancement in live captioning accuracy and accessibility for the hearing impaired.
