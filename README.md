@@ -37,7 +37,7 @@ LipTrans is an advanced real-time lip transcription tool that utilizes a sophist
    ```
 3. Install required dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 4. Load the GRID Corpus data by running `data_load.ipynb` in Jupyter Notebook.
 
