@@ -13,7 +13,7 @@ LipTrans is an advanced real-time lip transcription tool that utilizes a sophist
 - Achieves 4.5x better performance than human lipreading baselines.
 
 ## Technologies Used 🛠️
-- **Python** (3.8+)
+- **Python** (3.0+)
 - **TensorFlow** (2.x)
 - **OpenCV**
 - **Flask** (for the web app)
